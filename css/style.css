@@ -338,8 +338,12 @@
 		overflow: auto;
 		padding: 1em 0em;
 	}
+	.media section {
+		flex: 1;             
+  		min-width: 0;
+	}
 
-	.media img {
+	.media div img {
 		width: 100%;
 		border-radius: .5em;
 	}
@@ -517,8 +521,7 @@
 		text-align: center;
 	}
 
-	footer ul {
-	}
+	
 
 	footer a {
 		color: #9bb0c9;
@@ -858,7 +861,7 @@
 		padding: 1em 0em;
 	}
 
-	.media img {
+	.media div img {
 		width: 100%;
 		border-radius: .5em;
 		margin-top: 1em;
